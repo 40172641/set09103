@@ -8,8 +8,7 @@ def hello():
   if name == '' or city == '':
     return "no params supplied"
   else:
-    return "Hello %s" % name
-    return "City %s" % city
+    return "Hello %s" % name and "City %s" % city
   
 
 @app.route("/example/")
